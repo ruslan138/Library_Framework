@@ -1,0 +1,1348 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:26.133Z",
+        "line": 9,
+        "name": "as a librarian i should be able to sort user on users page",
+        "description": "",
+        "id": "librarian-user-group-category-features;as-a-librarian-i-should-be-able-to-sort-user-on-users-page;below;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3457000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 778000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on user button",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_click_on_user_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 457000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sort \"ALL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ALL\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.library.step_definitions.Librarian_group_users_stepDefinitions.sort(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:30.920Z",
+        "line": 10,
+        "name": "as a librarian i should be able to sort user on users page",
+        "description": "",
+        "id": "librarian-user-group-category-features;as-a-librarian-i-should-be-able-to-sort-user-on-users-page;below;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2910000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 952000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on user button",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_click_on_user_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sort \"Librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Librarian\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.library.step_definitions.Librarian_group_users_stepDefinitions.sort(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:35.208Z",
+        "line": 11,
+        "name": "as a librarian i should be able to sort user on users page",
+        "description": "",
+        "id": "librarian-user-group-category-features;as-a-librarian-i-should-be-able-to-sort-user-on-users-page;below;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 860000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on user button",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_click_on_user_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 565000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sort \"Students\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Students\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.library.step_definitions.Librarian_group_users_stepDefinitions.sort(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Librarian user group category features",
+    "description": "",
+    "id": "librarian-user-group-category-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Librarian_group_users.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:38.715Z",
+        "line": 3,
+        "name": "borrowing books",
+        "description": "",
+        "id": "as-a-user--i-should-able-to-see-my-borrowing-books.;borrowing-books",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2076000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i login as a user",
+            "match": {
+              "location": "com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1744000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click Borrowing Books module",
+            "match": {
+              "location": "com.library.step_definitions.borrowingBookandConfimModule_Steps.the_user_click_borrowing_books_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be see to the following column names:",
+            "match": {
+              "location": "com.library.step_definitions.borrowingBookandConfimModule_Steps.the_user_should_be_see_to_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Action"
+                ]
+              },
+              {
+                "cells": [
+                  "Book Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed Data"
+                ]
+              },
+              {
+                "cells": [
+                  "Planned Return Data"
+                ]
+              },
+              {
+                "cells": [
+                  "Return Data"
+                ]
+              },
+              {
+                "cells": [
+                  "Is Returned"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should able to see my borrowing books.",
+    "description": "",
+    "id": "as-a-user--i-should-able-to-see-my-borrowing-books.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/borrowingBookandConfimModule.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:42.868Z",
+        "line": 3,
+        "name": "librarian columns",
+        "description": "",
+        "id": "librarian-should-be-able-to-see-following-columns;librarian-columns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2157000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 808000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on user button",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_click_on_user_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian should be able see the following column names:",
+            "match": {
+              "location": "com.library.step_definitions.Librarian_Column_Step.the_librarian_should_be_able_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Actions"
+                ]
+              },
+              {
+                "cells": [
+                  "User ID"
+                ]
+              },
+              {
+                "cells": [
+                  "Full Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Email"
+                ]
+              },
+              {
+                "cells": [
+                  "Group"
+                ]
+              },
+              {
+                "cells": [
+                  "Status"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Librarian should be able to see following columns",
+    "description": "",
+    "id": "librarian-should-be-able-to-see-following-columns",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/librarian_Column_Names.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:46.150Z",
+        "line": 3,
+        "name": "librarian should be able to login and then add user",
+        "description": "",
+        "id": "as-a-librarian--i-should-be-able-to-add-users-from-users-page;librarian-should-be-able-to-login-and-then-add-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2091000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 765000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on user button",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_click_on_user_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1766000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "add new user",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.add_new_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d88.0.4324.182)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat sun.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\n\tat com.library.step_definitions.addUSer_stepDefinitions.thenLibrarianShoulbeAbleChangeUserInfo(addUSer_stepDefinitions.java:70)\n\tat ✽.then librarian shoulbe able change userInfo(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_addsUsers.feature:7)\n",
+              "duration": 203000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "then librarian shoulbe able change userInfo",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.thenLibrarianShoulbeAbleChangeUserInfo()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a librarian, I should be able to add users from users page",
+    "description": "",
+    "id": "as-a-librarian--i-should-be-able-to-add-users-from-users-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/librarian_addsUsers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:51.004Z",
+        "line": 11,
+        "name": "verify default values in Users page",
+        "description": "",
+        "id": "dropdowns-check-as-librarian;verify-default-values-in-users-page;dropdowns-options;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\u0027inputEmail\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:31)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_showFiles.feature:4)\n",
+              "duration": 4376000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on Users link",
+            "match": {
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.i_click_on_users_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "show records default value should be \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsDefaultValueShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "show records should have following \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsShouldHaveFollowing(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:55.394Z",
+        "line": 12,
+        "name": "verify default values in Users page",
+        "description": "",
+        "id": "dropdowns-check-as-librarian;verify-default-values-in-users-page;dropdowns-options;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:30)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_showFiles.feature:4)\n",
+              "duration": 10000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on Users link",
+            "match": {
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.i_click_on_users_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "show records default value should be \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsDefaultValueShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "show records should have following \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsShouldHaveFollowing(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:55.421Z",
+        "line": 13,
+        "name": "verify default values in Users page",
+        "description": "",
+        "id": "dropdowns-check-as-librarian;verify-default-values-in-users-page;dropdowns-options;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:30)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_showFiles.feature:4)\n",
+              "duration": 19000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on Users link",
+            "match": {
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.i_click_on_users_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "show records default value should be \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsDefaultValueShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "show records should have following \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsShouldHaveFollowing(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:55.453Z",
+        "line": 14,
+        "name": "verify default values in Users page",
+        "description": "",
+        "id": "dropdowns-check-as-librarian;verify-default-values-in-users-page;dropdowns-options;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:30)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_showFiles.feature:4)\n",
+              "duration": 13000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on Users link",
+            "match": {
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.i_click_on_users_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "show records default value should be \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsDefaultValueShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "show records should have following \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsShouldHaveFollowing(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:55.483Z",
+        "line": 15,
+        "name": "verify default values in Users page",
+        "description": "",
+        "id": "dropdowns-check-as-librarian;verify-default-values-in-users-page;dropdowns-options;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:30)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_showFiles.feature:4)\n",
+              "duration": 23000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on Users link",
+            "match": {
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.i_click_on_users_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "show records default value should be \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsDefaultValueShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "show records should have following \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsShouldHaveFollowing(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:55.530Z",
+        "line": 16,
+        "name": "verify default values in Users page",
+        "description": "",
+        "id": "dropdowns-check-as-librarian;verify-default-values-in-users-page;dropdowns-options;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:30)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_showFiles.feature:4)\n",
+              "duration": 12000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on Users link",
+            "match": {
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.i_click_on_users_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "show records default value should be \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsDefaultValueShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "show records should have following \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsShouldHaveFollowing(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:55.564Z",
+        "line": 17,
+        "name": "verify default values in Users page",
+        "description": "",
+        "id": "dropdowns-check-as-librarian;verify-default-values-in-users-page;dropdowns-options;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:30)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/librarian_showFiles.feature:4)\n",
+              "duration": 17000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on Users link",
+            "match": {
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.i_click_on_users_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "show records default value should be \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsDefaultValueShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "show records should have following \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.library.step_definitions.librarian_showFiles_stepDefinitions.showRecordsShouldHaveFollowing(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Dropdowns check as librarian",
+    "description": "",
+    "id": "dropdowns-check-as-librarian",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/librarian_showFiles.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:55.592Z",
+        "line": 9,
+        "name": "After i login as a user/librarian related page should be opened",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.;after-i-login-as-a-user/librarian-related-page-should-be-opened;below;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.Login_stepDefinitions.user_login_as_a(Login_stepDefinitions.java:16)\n\tat ✽.User login as a \"student\"(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/login.feature:4)\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User login as a \"student\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Then title should contain \"books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"books\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.library.step_definitions.Login_stepDefinitions.then_title_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T23:40:55.616Z",
+        "line": 10,
+        "name": "After i login as a user/librarian related page should be opened",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.;after-i-login-as-a-user/librarian-related-page-should-be-opened;below;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.Login_stepDefinitions.user_login_as_a(Login_stepDefinitions.java:16)\n\tat ✽.User login as a \"librarian\"(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/login.feature:4)\n",
+              "duration": 12000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User login as a \"librarian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Then title should contain \"dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dashboard\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.library.step_definitions.Login_stepDefinitions.then_title_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to login to the library app.",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-login-to-the-library-app.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:55.645Z",
+        "line": 3,
+        "name": "As a user i should be able login first and logout",
+        "description": "",
+        "id": "as-a-user-or-librarian-i-should-be-able-to-logout-from-the-app;as-a-user-i-should-be-able-login-first-and-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user(LogOut_stepDefinitions.java:18)\n\tat ✽.i login as a user(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/logout.feature:4)\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "i login as a user",
+            "match": {
+              "location": "com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "i should be able to logout",
+            "match": {
+              "location": "com.library.step_definitions.LogOut_stepDefinitions.i_should_be_able_to_logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "return to the login page",
+            "match": {
+              "location": "com.library.step_definitions.LogOut_stepDefinitions.return_to_the_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a user or Librarian i should be able to logout from the app",
+    "description": "",
+    "id": "as-a-user-or-librarian-i-should-be-able-to-logout-from-the-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/logout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:55.670Z",
+        "line": 3,
+        "name": "As a librarian i should be able to see 3 modules",
+        "description": "",
+        "id": "as-a-librarian--i-should-be-able-to--see-seveal-modules-once-i-login.;as-a-librarian-i-should-be-able-to-see-3-modules",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian(addUSer_stepDefinitions.java:30)\n\tat ✽.user login as a librarian(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/modules_LIB_Confrimation.feature:4)\n",
+              "duration": 19000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.library.step_definitions.addUSer_stepDefinitions.user_login_as_a_librarian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user should see following librarian modules",
+            "match": {
+              "location": "com.library.step_definitions.modules_LIB_Confrimation_BUG.the_user_should_see_following_librarian_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Dashboard"
+                ]
+              },
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a librarian, I should be able to  see seveal modules once I login.",
+    "description": "",
+    "id": "as-a-librarian--i-should-be-able-to--see-seveal-modules-once-i-login.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/modules_LIB_Confrimation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:55.706Z",
+        "line": 3,
+        "name": "As a student i should be able to see 2 modules",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;as-a-student-i-should-be-able-to-see-2-modules",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user(LogOut_stepDefinitions.java:18)\n\tat ✽.i login as a user(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/modules_ST_confirmation.feature:4)\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "i login as a user",
+            "match": {
+              "location": "com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user should see following modules",
+            "match": {
+              "location": "com.library.step_definitions.modules_Student_step_definitions.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to  see several modules once I login.",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to--see-several-modules-once-i-login.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/modules_ST_confirmation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:55.724Z",
+        "line": 3,
+        "name": "user should be able to search book",
+        "description": "",
+        "id": "as-a-students--i-should-be-able-to-search-books-with-different-categories.;user-should-be-able-to-search-book",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user(LogOut_stepDefinitions.java:18)\n\tat ✽.i login as a user(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/studentSearchBook.feature:4)\n",
+              "duration": 8000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "i login as a user",
+            "match": {
+              "location": "com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "i could search book by categories and choose a Classic",
+            "match": {
+              "location": "com.library.step_definitions.studentSearchBook_StepDefinitions.iCouldSearchBookByCategoriesAndChooseAClassic()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a students, I should be able to search books with different categories.",
+    "description": "",
+    "id": "as-a-students--i-should-be-able-to-search-books-with-different-categories.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/studentSearchBook.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T23:40:55.749Z",
+        "line": 3,
+        "name": "Table columns names",
+        "description": "",
+        "id": "6.-as-a-students--i-should-be-able-to-see-tables-with-default-info;table-columns-names",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Ruslans-MBP.lan\u0027, ip: \u0027fe80:0:0:0:894:5f25:1ad4:dba5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.7\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/sj/4376p_4n53s...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 055b8b64b15a5ffabf95661aec5c9c6b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user(LogOut_stepDefinitions.java:18)\n\tat ✽.i login as a user(file:///Users/ruslankovalchuk/Desktop/Intelij%20Procects/Library_Framework/src/test/resources/features/student_columnNames.feature:5)\n",
+              "duration": 7000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "i login as a user",
+            "match": {
+              "location": "com.library.step_definitions.LogOut_stepDefinitions.i_login_as_a_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user should be see the following column names:",
+            "match": {
+              "location": "com.library.step_definitions.studentsColumn_stepDefinitiosn_BUG.the_user_should_be_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Actions"
+                ]
+              },
+              {
+                "cells": [
+                  "ISBN"
+                ]
+              },
+              {
+                "cells": [
+                  "Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Author"
+                ]
+              },
+              {
+                "cells": [
+                  "Category"
+                ]
+              },
+              {
+                "cells": [
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed By"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "6. As a students, I should be able to see tables with default info",
+    "description": "",
+    "id": "6.-as-a-students--i-should-be-able-to-see-tables-with-default-info",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/student_columnNames.feature",
+    "tags": []
+  }
+]
